@@ -5,27 +5,34 @@ export default function Hero() {
     <>
       <section className="section_container">
         <div className="content">
-          <div>
+          <div className="hero_text">
             <h1>More than just shorter links</h1>
             <p>
               Build your brand’s recognition and get detailed insights on how
               your links are performing.
             </p>
-            <a>Get Started</a>
+            <a className="hero_btn">Get Started</a>
           </div>
-          <div className="heroimg">
+
+          <div className="hero_img">
             <img src="./heroimg.svg" alt="Background image" />
           </div>
         </div>
-        <div className="input">
-          <div>
-            <input type="text" placeholder="Shorten a link here..." />
-          </div>
-          <div>
-            <button>Shorten It!</button>
-          </div>
+
+        <div className="short_box">
+          <input
+            className="short_input"
+            type="text"
+            placeholder="Shorten a link here..."
+          />
+          <button className="short_btn">Shorten It!</button>
         </div>
-        <img src="./searchbg.svg" alt="Search background image" />
+
+        <img
+          className="search_bg"
+          src="./searchbg.svg"
+          alt="Search background image"
+        />
       </section>
     </>
   );

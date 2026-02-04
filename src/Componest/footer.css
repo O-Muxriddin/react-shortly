@@ -1,4 +1,8 @@
 .footer {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 60px 24px;
+
   background: #232127;
   color: #fff;
   padding: 60px 20px;
@@ -6,7 +10,6 @@
 }
 
 .footer-container {
-  max-width: 1280px;
   width: 100%;
   margin: 0 auto;
   display: flex;
@@ -19,6 +22,7 @@
   margin-top: 20px;
   width: 120px;
   height: 32px;
+  margin-left: 200px;
 }
 
 .footer-links {
@@ -52,6 +56,7 @@
 
 .footer-social {
   display: flex;
+  margin-right: 100px;
   gap: 15px;
   list-style: none;
 }

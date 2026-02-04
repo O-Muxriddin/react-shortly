@@ -1,10 +1,10 @@
 .main-sec {
-  background: #9e9aa8;
+  background: rgb(233, 230, 230);
   width: 1280px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
-  padding-bottom: 60px;
+  padding-bottom: 100px;
   height: 630px;
 }
 .info-main {
@@ -62,7 +62,7 @@
 }
 .firstcard button {
   position: absolute;
-  bottom: 230px;
+  bottom: 280px;
   border: none;
   padding: 24px;
   background: #3a3054;
@@ -90,7 +90,7 @@
 }
 .secondcard button {
   position: absolute;
-  bottom: 230px;
+  bottom: 280px;
   border: none;
   padding: 24px;
   background: #3a3054;
@@ -107,7 +107,7 @@
   padding-bottom: 40px;
   padding-right: 32px;
   border-radius: 10px;
-  background: rgb(255, 255, 255);
+  background: rgb(255, 254, 254);
 }
 .thirdcard h2 {
   color: #34313d;
@@ -115,7 +115,7 @@
 }
 .thirdcard button {
   position: absolute;
-  bottom: 220px;
+  bottom: 240px;
   border: none;
   padding: 24px;
   background: #3a3054;
