@@ -1,0 +1,123 @@
+.main-sec {
+  width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+.info-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 5px;
+}
+.info-main span {
+  padding-left: 70px;
+  display: flex;
+  gap: 5px;
+}
+.cards-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1110px;
+  padding-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  gap: 30px;
+}
+.line {
+    position: relative;
+
+top: 320px;
+  width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.firstcard {
+  width: 350px;
+
+  padding-left: 32px;
+  padding-top: 77px;
+  padding-bottom: 40px;
+  padding-right: 32px;
+  border-radius: 10px;
+  background: rgb(213, 211, 211);
+}
+.firstcard h2 {
+  color: #34313d;
+  font-weight: bold;
+}
+.firstcard p {
+  color: #9e9aa8;
+}
+.firstcard button {
+  position: absolute;
+  bottom: 280px;
+  border: none;
+  padding: 24px;
+  background: #3a3054;
+  border-radius: 100%;
+  z-index: 10;
+}
+.secondcard {
+  position: relative;
+  top: 80px;
+  width: 350px;
+
+  padding-left: 32px;
+  padding-top: 77px;
+  padding-bottom: 40px;
+  padding-right: 32px;
+  border-radius: 10px;
+  background: rgb(213, 211, 211);
+}
+.secondcard h2 {
+  color: #34313d;
+  font-weight: bold;
+}
+.secondcard p {
+  color: #9e9aa8;
+}
+.secondcard button {
+  position: absolute;
+  bottom: 300px;
+  border: none;
+  padding: 24px;
+  background: #3a3054;
+  border-radius: 100%;
+  z-index: 10;
+}
+.thirdcard {
+  position: relative;
+  top: 130px;
+  width: 350px;
+
+  padding-left: 32px;
+  padding-top: 77px;
+  padding-bottom: 40px;
+  padding-right: 32px;
+  border-radius: 10px;
+  background: rgb(213, 211, 211);
+}
+.thirdcard h2 {
+  color: #34313d;
+  font-weight: bold;
+}
+.thirdcard button {
+  position: absolute;
+  bottom: 250px;
+  border: none;
+  padding: 24px;
+  background: #3a3054;
+  border-radius: 100%;
+  z-index: 10;
+}
+.thirdcard p {
+  color: #9e9aa8;
+}
